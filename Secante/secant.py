@@ -1,6 +1,7 @@
 from pandas import DataFrame
 from numpy import linspace
 from sympy import symbols
+from math import*
 
 # Primeiro definimos a variável que será lida f(x) = x 
 x = symbols('x')
