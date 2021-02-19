@@ -45,11 +45,11 @@ if __name__ == '__main__':
     e  = input("Entre com o erro máximo tolerado: ")
     '''
 
-    t = 3
-    A  = array([[10,2,1], [1,5,1], [2,3,10]])
-    B  = array([7,-8,6])
-    Ap = array([4,-1,1])
-    e  = 0.00001  
+    t = 8
+    A  = array([[-10,1,-2,0], [-1,11,-1,3], [2,-1,10,-1], [0,3,-1,8]])
+    B  = array([-6,25,-11,15])
+    Ap = array([0,0,0,0])
+    e  = 0.001  
     
     valores = gaussJacobi(A, B, Ap, e)
 
